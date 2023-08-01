@@ -1,4 +1,11 @@
 `include "defines.sv"
+`include "transaction.sv"
+`include "generator.sv"
+`include "driver.sv"
+`include "monitor.sv"
+`include "reference_model.sv"
+`include "scoreboard.sv"
+
 class ram_environment;
 //PROPERTIES
   //Virtual interfaces for driver, monitor and reference model

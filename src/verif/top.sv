@@ -1,6 +1,6 @@
+`include "test.sv"
+`include "ram_if.sv"
 module top( );
-  //Importing the ram package
-    import ram_pkg ::*; 
   //Declaring variables for clock and reset
     bit clk;
     bit reset;

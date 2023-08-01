@@ -1,3 +1,4 @@
+`include "env.sv"
 class ram_test;
 //PROPERTIES
   //Virtual interfaces for driver, monitor and reference model

@@ -19,7 +19,7 @@ class ram_generator;
     for(int i=0;i<`no_of_trans;i++)
       begin
       //Randomizing the inputs
-        blueprint.randomize();
+        void'(blueprint.randomize());
       //Putting the randomized inputs to mailbox    
         mbx_gd.put(blueprint.copy());  
         $display("GENERATOR Randomized transaction data_in=%d,write_enb=%d,read_enb=%d,address=%d",
